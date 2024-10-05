@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+/* Mobile Styles */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px; /* Reduce navbar padding */
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .navbar ul {
+    flex-direction: column; /* Stack nav items vertically */
+    gap: 20px; /* Reduce gap */
+  }
+
+  .tagline {
+    flex-direction: column; /* Stack tagline elements vertically */
+    padding: 20px; /* Reduce padding */
+  }
+
+  .tagline-image {
+    width: 300px; /* Reduce image size */
+    height: 300px; /* Reduce image size */
+    margin-top: 20px; /* Adjust margin */
+  }
+
+  .about {
+    flex-direction: column; /* Stack about section vertically */
+    padding: 20px; /* Reduce padding */
+  }
+
+  .about-image {
+    width: 100%; /* Full width on mobile */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .skills-container {
+    flex-direction: column; /* Stack skill columns vertically */
+    align-items: center; /* Center items */
+  }
+
+  .project {
+    flex-direction: column; /* Stack project items vertically */
+  }
+
+  .project-image {
+    width: 100%; /* Full width on mobile */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .contact form {
+    padding: 10px; /* Reduce form padding */
+  }
+}
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px; /* Adjust navbar padding */
+  }
+
+  .tagline {
+    padding: 40px; /* Adjust padding */
+  }
+
+  .tagline-image {
+    width: 350px; /* Adjust image size */
+    height: 350px; /* Adjust image size */
+  }
+
+  .about {
+    padding: 30px; /* Adjust padding */
+  }
+
+  .about-image {
+    width: 80%; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .skills-container {
+    flex-direction: row; /* Maintain row layout */
+    justify-content: space-around; /* Space columns evenly */
+  }
+
+  .project {
+    flex-direction: row; /* Keep projects side by side */
+    margin: 15px 0; /* Adjust margin */
+  }
+
+  .project-image {
+    width: 350px; /* Adjust image size */
+    height: auto; /* Maintain aspect ratio */
+  }
+}

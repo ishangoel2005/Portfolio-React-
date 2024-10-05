@@ -1,0 +1,78 @@
+.navbar {
+    position: fixed; /* Fixed position at the top */
+    top: 0; /* Stick to the top */
+    left: 0;
+    right: 0;
+    background: #000000; /* Dark background */
+    color: white; /* White text */
+    padding: 20px 20px; /* Increased padding for height */
+    z-index: 1000; /* High z-index to stay above other elements */
+}
+
+/* Smooth scrolling behavior for the entire page */
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling for the entire page */
+}
+
+/* Adjust the spacing for the content below the navbar */
+.content {
+    padding-top: 100px; /* Adjust this value based on the navbar height */
+    padding-bottom: 50px; /* Add extra space at the bottom */
+}
+
+.navbar ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Flex display for horizontal layout */
+    justify-content: center; /* Space items evenly */
+    gap: 50px;
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+.navbar li {
+    margin: 0 15px; /* Space between links, slightly closer */
+}
+
+.navbar a {
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    font-size: 18px; /* Increase font size for better readability */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Extra space at the bottom of the entire page */
+/* Mobile Styles */
+@media (max-width: 480px) {
+    .navbar {
+      padding: 15px; /* Reduce padding */
+    }
+  
+    .navbar ul {
+      flex-direction: column; /* Stack items vertically */
+      gap: 20px; /* Adjust gap for mobile */
+    }
+  
+    .navbar a {
+      font-size: 16px; /* Slightly smaller font size */
+    }
+  }
+  
+  /* Tablet Styles */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 20px; /* Maintain padding */
+    }
+  
+    .navbar ul {
+      gap: 30px; /* Adjust gap for tablet */
+    }
+  
+    .navbar a {
+      font-size: 17px; /* Adjust font size for better readability */
+    }
+  }
+  

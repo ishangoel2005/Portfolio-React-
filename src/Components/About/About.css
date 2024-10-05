@@ -1,0 +1,50 @@
+.about {
+  display: flex;
+  align-items: center; /* Center vertically */
+  padding: 50px;
+  background: black; /* Change background to black */
+  color: #fff; /* Change text color to white */
+}
+
+.about-text {
+  flex: 1; /* Take up available space */
+  padding-right: 20px; /* Space between text and image */
+}
+
+.about-heading {
+  font-size: 2rem;
+}
+
+.about-image {
+  width: 300px; /* Adjust width */
+  height: 300px; /* Set height to maintain aspect ratio */
+  background-image: url(https://d23qowwaqkh3fj.cloudfront.net/wp-content/uploads/2022/04/tech_park.jpg); /* Use the correct path to your image */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 20px rgb(247, 248, 246), 0 0 30px rgb(249, 249, 250); /* Subtle shadow */
+}
+/* Mobile Styles */
+@media (max-width: 480px) {
+  .about {
+    flex-direction: column; /* Stack about section vertically */
+    padding: 20px; /* Reduce padding */
+  }
+
+  .about-image {
+    width: 100%; /* Full width on mobile */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+  .about {
+    padding: 30px; /* Adjust padding */
+  }
+
+  .about-image {
+    width: 80%; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}

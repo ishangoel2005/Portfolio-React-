@@ -1,0 +1,59 @@
+.contact {
+  background: black; /* Change background to black */
+  padding: 50px;
+  color: #fff; /* Change text color to white */
+  text-align: center; /* Center text */
+}
+
+form {
+  max-width: 500px; /* Limit form width */
+  margin: 0 auto; /* Center form */
+}
+
+input,
+textarea {
+  width: 100%; /* Full width */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  background: #333; /* Dark background for inputs */
+  color: white; /* White text */
+}
+
+button {
+  padding: 10px 20px;
+  background: #007bff; /* Bootstrap primary color */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+}
+
+button:hover {
+  background: #0056b3; /* Darker blue on hover */
+}
+.heading{
+  font-size: 2rem;
+}
+/* Mobile Styles */
+@media (max-width: 480px) {
+  .contact {
+    padding: 20px; /* Reduce padding */
+  }
+
+  form {
+    padding: 10px; /* Reduce form padding */
+  }
+}
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+  .contact {
+    padding: 40px; /* Adjust padding */
+  }
+
+  form {
+    max-width: 100%; /* Full width on tablet */
+  }
+}
