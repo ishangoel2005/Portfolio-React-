@@ -14,7 +14,7 @@ const About = () => {
         <h2 className='about-heading'>About Me</h2>
         <div className="about-text-box">
           <p>
-            I am a first-year Computer Science undergraduate studying in SRM Institute of Science and Technology, Kattankulathur, Chennai. My academic journey has been kick-started through an unwavering passion for innovations. With a particular interest in web development, artificial intelligence, and cybersecurity, I am enthusiastic about the transformative power of technology and eager to explore the dynamic intersections of these fields. I believe in staying a student forever and am committed to continuous learning and staying at the forefront of emerging trends. Keen to connect with like-minded professionals and enthusiasts, I'm excited about the potential collaborations and opportunities that lie ahead in this ever-evolving landscape.
+            I am a second-year Computer Science undergraduate studying in SRM Institute of Science and Technology, Kattankulathur, Chennai. My academic journey has been kick-started through an unwavering passion for innovations. With a particular interest in web development, artificial intelligence, and cybersecurity, I am enthusiastic about the transformative power of technology and eager to explore the dynamic intersections of these fields. I believe in staying a student forever and am committed to continuous learning and staying at the forefront of emerging trends. Keen to connect with like-minded professionals and enthusiasts, I'm excited about the potential collaborations and opportunities that lie ahead in this ever-evolving landscape.
           </p>
         </div>
       </motion.div>
