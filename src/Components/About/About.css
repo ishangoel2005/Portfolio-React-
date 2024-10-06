@@ -1,50 +1,44 @@
 .about {
   display: flex;
-  align-items: center; /* Center vertically */
+  align-items: center;
   padding: 50px;
-  background: black; /* Change background to black */
-  color: #fff; /* Change text color to white */
+  background: black;
+  color: #fff;
 }
-
 .about-text {
-  flex: 1; /* Take up available space */
-  padding-right: 20px; /* Space between text and image */
+  flex: 1;
+  padding-right: 20px;
 }
-
 .about-heading {
   font-size: 2rem;
 }
-
 .about-image {
-  width: 300px; /* Adjust width */
-  height: 300px; /* Set height to maintain aspect ratio */
-  background-image: url(https://d23qowwaqkh3fj.cloudfront.net/wp-content/uploads/2022/04/tech_park.jpg); /* Use the correct path to your image */
-  background-size: cover; /* Cover the entire area */
-  background-position: center; /* Center the image */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 0 20px rgb(247, 248, 246), 0 0 30px rgb(249, 249, 250); /* Subtle shadow */
+  width: 300px;
+  height: 300px;
+  background-image: url(https://d23qowwaqkh3fj.cloudfront.net/wp-content/uploads/2022/04/tech_park.jpg);
+  background-size: cover;
+  background-position: center; 
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(247, 248, 246), 0 0 30px rgb(249, 249, 250);
 }
-/* Mobile Styles */
+
 @media (max-width: 480px) {
   .about {
-    flex-direction: column; /* Stack about section vertically */
-    padding: 20px; /* Reduce padding */
+    flex-direction: column;
+    padding: 20px;
   }
-
   .about-image {
-    width: 100%; /* Full width on mobile */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
   }
 }
 
-/* Tablet Styles */
 @media (max-width: 768px) {
   .about {
-    padding: 30px; /* Adjust padding */
+    padding: 30px;
   }
-
   .about-image {
-    width: 80%; /* Adjust width */
-    height: auto; /* Maintain aspect ratio */
+    width: 80%;
+    height: auto;
   }
 }

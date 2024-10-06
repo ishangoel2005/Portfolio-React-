@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import './Contact.css';
 
 const Contact = () => {
-  const [loading, setLoading] = useState(false); // State to track loading
-  const [message, setMessage] = useState(''); // State for feedback message
+  const [loading, setLoading] = useState(false); 
+  const [message, setMessage] = useState(''); 
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setLoading(true); // Start loading
-    setMessage(''); // Reset message
+    setLoading(true); 
+    setMessage(''); 
 
     const formData = new FormData(event.target);
     formData.append("access_key", "d48056d9-0ee8-4e92-bd10-23602e8597d9");
@@ -29,23 +29,23 @@ const Contact = () => {
       const data = await res.json();
 
       if (data.success) {
-        setMessage("Message sent successfully!"); // Success message
-        event.target.reset(); // Reset form fields
+        setMessage("Message sent successfully!"); 
+        event.target.reset(); 
       } else {
-        setMessage("Submission failed. Please try again."); // Error message
+        setMessage("Submission failed. Please try again."); 
       }
     } catch (error) {
       console.error("Error:", error);
-      setMessage("An error occurred. Please try again."); // Error message
+      setMessage("An error occurred. Please try again."); 
     } finally {
-      setLoading(false); // Stop loading
+      setLoading(false); 
     }
   };
 
   return (
     <section className="contact">
       <h2 className='heading'>Contact Me</h2>
-      {message && <p className="feedback-message">{message}</p>} {/* Feedback message */}
+      {message && <p className="feedback-message">{message}</p>} 
       <form onSubmit={onSubmit}>
         <div className="input-box">
           <label>Full Name</label>

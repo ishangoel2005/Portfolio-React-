@@ -22,10 +22,8 @@ const Tagline = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1.2 }}
       >
-        {/* The image is styled using CSS */}
       </motion.div>
 
-      {/* Social media icons below the tagline text */}
       <motion.div
         className="social-icons"
         initial={{ opacity: 0 }}

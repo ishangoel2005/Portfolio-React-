@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css'; // Optional: For styling
+import './Navbar.css';
 
 const Navbar = () => {
   const scrollToSection = (id) => {

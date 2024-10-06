@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import './Skills.css';
 
-// Define professional and soft skills
 const professionalSkills = [
   { name: 'HTML' },
   { name: 'CSS' },
@@ -34,7 +33,7 @@ const Skills = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <span className="icon">✔️</span> {/* Tick icon */}
+                <span className="icon">✔️</span> 
                 <h4>{skill.name}</h4>
                 <p>{skill.level}</p>
               </motion.div>
@@ -51,7 +50,7 @@ const Skills = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <span className="icon">✔️</span> {/* Arrow icon */}
+                <span className="icon">✔️</span> 
                 <h4>{skill.name}</h4>
                 <p>{skill.level}</p>
               </motion.div>

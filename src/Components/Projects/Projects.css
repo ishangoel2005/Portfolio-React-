@@ -1,81 +1,69 @@
 .projects {
-  background: black; /* Change background to black */
+  background: black; 
   padding: 50px;
-  color: #fff; /* Change text color to white */
+  color: #fff;
 }
-
 .project {
   display: flex;
-  align-items: center; /* Center vertically */
-  margin: 20px 0; /* Space between projects */
+  align-items: center; 
+  margin: 20px 0; 
 }
-
 .project-info {
-  flex: 1; /* Take up available space */
-  padding: 20px; /* Padding for text */
+  flex: 1; 
+  padding: 20px; 
 }
-
 .project-image {
-  width: 390px; /* Set a width for the background image */
-  height: 210px; /* Set a height for the background image */
+  width: 390px; 
+  height: 210px; 
   border-radius: 10px;
-  background-size: cover; /* Cover the entire area */
-  background-position: center; /* Center the image */
-  box-shadow: 0 0 20px rgb(247, 248, 246), 0 0 30px rgb(34, 20, 233); /* Subtle shadow */
+  background-size: cover; 
+  background-position: center;
+  box-shadow: 0 0 20px rgb(247, 248, 246), 0 0 30px rgb(34, 20, 233); 
 }
-
-/* Specific background images for each project */
 .project-image-srm {
-  background-image: url('../../assets/project1.JPG'); /* Path to the SRM website clone image */
+  background-image: url('../../assets/project1.JPG'); 
 }
-
 .project-image-url-shortener {
-  background-image: url('../../assets/project2.jpg'); /* Path to the URL shortener image */
+  background-image: url('../../assets/project2.jpg'); 
 }
-
 .project-image-take-you-forward {
-  background-image: url('../../assets/project3.JPG'); /* Path to the Take You Forward clone image */
+  background-image: url('../../assets/project3.JPG'); 
 }
-
 .left {
-  flex-direction: row; /* Text left, image right */
+  flex-direction: row; 
 }
-
 .right {
-  flex-direction: row-reverse; /* Image left, text right */
+  flex-direction: row-reverse; 
 }
 .heading{
   font-size: 2rem;
 }
 .project-link {
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; 
+  color: inherit; 
 }
 .arrow {
-  margin-left: 5px; /* Space between title and arrow */
-  vertical-align: middle; /* Align arrow with text */
+  margin-left: 5px; 
+  vertical-align: middle; 
 }
-/* Mobile Styles */
+
 @media (max-width: 480px) {
   .project {
-    flex-direction: column; /* Stack project items vertically */
+    flex-direction: column; 
   }
-
   .project-image {
-    width: 100%; /* Full width on mobile */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
   }
 }
 
-/* Tablet Styles */
 @media (max-width: 768px) {
   .project {
-    flex-direction: row; /* Keep projects side by side */
-    margin: 15px 0; /* Adjust margin */
+    flex-direction: row; 
+    margin: 15px 0; 
   }
-
   .project-image {
-    width: 350px; /* Adjust image size */
-    height: auto; /* Maintain aspect ratio */
+    width: 350px; 
+    height: auto; 
   }
 }

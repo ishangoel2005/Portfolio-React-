@@ -1,78 +1,65 @@
 .navbar {
-    position: fixed; /* Fixed position at the top */
-    top: 0; /* Stick to the top */
+    position: fixed;
+    top: 0;
     left: 0;
     right: 0;
-    background: #000000; /* Dark background */
-    color: white; /* White text */
-    padding: 20px 20px; /* Increased padding for height */
-    z-index: 1000; /* High z-index to stay above other elements */
+    background: #000000; 
+    color: white; 
+    padding: 20px 20px;
+    z-index: 1000; 
 }
-
-/* Smooth scrolling behavior for the entire page */
 html {
-    scroll-behavior: smooth; /* Enables smooth scrolling for the entire page */
+    scroll-behavior: smooth; 
 }
-
-/* Adjust the spacing for the content below the navbar */
 .content {
-    padding-top: 100px; /* Adjust this value based on the navbar height */
-    padding-bottom: 50px; /* Add extra space at the bottom */
+    padding-top: 100px; 
+    padding-bottom: 50px; 
 }
-
 .navbar ul {
-    list-style: none; /* Remove bullet points */
-    display: flex; /* Flex display for horizontal layout */
-    justify-content: center; /* Space items evenly */
+    list-style: none; 
+    display: flex; 
+    justify-content: center;
     gap: 50px;
-    margin: 0; /* Reset margin */
-    padding: 0; /* Reset padding */
+    margin: 0; 
+    padding: 0; 
 }
-
 .navbar li {
-    margin: 0 15px; /* Space between links, slightly closer */
+    margin: 0 15px; 
 }
-
 .navbar a {
-    color: white; /* White text */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Bold text */
-    font-size: 18px; /* Increase font size for better readability */
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 18px;
 }
-
 .navbar a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
-/* Extra space at the bottom of the entire page */
-/* Mobile Styles */
 @media (max-width: 480px) {
     .navbar {
-      padding: 15px; /* Reduce padding */
+      padding: 15px; 
     }
-  
     .navbar ul {
-      flex-direction: column; /* Stack items vertically */
-      gap: 20px; /* Adjust gap for mobile */
+      flex-direction: column; 
+      gap: 20px; 
     }
-  
     .navbar a {
-      font-size: 16px; /* Slightly smaller font size */
+      font-size: 16px; 
     }
   }
   
-  /* Tablet Styles */
   @media (max-width: 768px) {
     .navbar {
-      padding: 20px; /* Maintain padding */
+      padding: 20px;
     }
   
     .navbar ul {
-      gap: 30px; /* Adjust gap for tablet */
+      gap: 30px; 
     }
   
     .navbar a {
-      font-size: 17px; /* Adjust font size for better readability */
+      font-size: 17px;
     }
   }
   

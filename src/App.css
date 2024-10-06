@@ -4,94 +4,77 @@ body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
-/* Mobile Styles */
+
 @media (max-width: 480px) {
   .navbar {
-    padding: 10px; /* Reduce navbar padding */
-    flex-direction: column; /* Stack items vertically */
+    padding: 10px; 
+    flex-direction: column; 
   }
-
   .navbar ul {
-    flex-direction: column; /* Stack nav items vertically */
-    gap: 20px; /* Reduce gap */
+    flex-direction: column;
+    gap: 20px; 
   }
-
   .tagline {
-    flex-direction: column; /* Stack tagline elements vertically */
-    padding: 20px; /* Reduce padding */
+    flex-direction: column; 
+    padding: 20px; 
   }
-
   .tagline-image {
-    width: 300px; /* Reduce image size */
-    height: 300px; /* Reduce image size */
-    margin-top: 20px; /* Adjust margin */
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
   }
-
   .about {
-    flex-direction: column; /* Stack about section vertically */
-    padding: 20px; /* Reduce padding */
+    flex-direction: column; 
+    padding: 20px; 
   }
-
   .about-image {
-    width: 100%; /* Full width on mobile */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
   }
-
   .skills-container {
-    flex-direction: column; /* Stack skill columns vertically */
-    align-items: center; /* Center items */
+    flex-direction: column; 
+    align-items: center;
   }
-
   .project {
-    flex-direction: column; /* Stack project items vertically */
+    flex-direction: column; 
   }
-
   .project-image {
-    width: 100%; /* Full width on mobile */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto;
   }
-
   .contact form {
-    padding: 10px; /* Reduce form padding */
+    padding: 10px;
   }
 }
 
-/* Tablet Styles */
 @media (max-width: 768px) {
   .navbar {
-    padding: 15px; /* Adjust navbar padding */
+    padding: 15px; 
   }
-
   .tagline {
-    padding: 40px; /* Adjust padding */
+    padding: 40px; 
   }
-
   .tagline-image {
-    width: 350px; /* Adjust image size */
-    height: 350px; /* Adjust image size */
+    width: 350px; 
+    height: 350px; 
   }
-
   .about {
-    padding: 30px; /* Adjust padding */
+    padding: 30px; 
   }
-
   .about-image {
-    width: 80%; /* Adjust width */
-    height: auto; /* Maintain aspect ratio */
+    width: 80%; 
+    height: auto; 
   }
-
   .skills-container {
-    flex-direction: row; /* Maintain row layout */
-    justify-content: space-around; /* Space columns evenly */
+    flex-direction: row; 
+    justify-content: space-around; 
   }
-
   .project {
-    flex-direction: row; /* Keep projects side by side */
-    margin: 15px 0; /* Adjust margin */
+    flex-direction: row;
+    margin: 15px 0; 
   }
-
   .project-image {
-    width: 350px; /* Adjust image size */
-    height: auto; /* Maintain aspect ratio */
+    width: 350px; 
+    height: auto; 
   }
 }

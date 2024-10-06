@@ -25,7 +25,6 @@ const About = () => {
         animate={{ scale: 1 }}
         transition={{ duration: 0.8 }}
       >
-        {/* Image is styled using CSS */}
       </motion.div>
     </section>
   );
